@@ -1,0 +1,13 @@
+{
+  "name": "Sample Elixir Plug",
+  "description": "Sample web application using the Elixir framework Plug",
+  "logo": "https://scalingo.com/logo.svg",
+  "repository": "https://github.com/Scalingo/sample-elixir-plug",
+  "website": "https://scalingo.com",
+  "env": {
+    "BUILDPACK_URL": {
+      "description": "Buildpack url",
+      "value": "https://github.com/HashNuke/heroku-buildpack-elixir"
+    }
+  }
+}

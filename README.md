@@ -28,7 +28,7 @@ mix run --no-halt
 Create an application on https://scalingo.com, then:
 
 ```
-git remote add scalingo git@scalingo.com:<name_of_your_app>.git
+scalingo --app my-app git-setup
 git push scalingo master
 ```
 
@@ -38,7 +38,7 @@ The application is running at this url: https://sample-elixir-plug.scalingo.io/
 
 ## Deploy in one click
 
-[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy)
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://github.com/Scalingo/sample-elixir-plug)
 
 ## Links
 

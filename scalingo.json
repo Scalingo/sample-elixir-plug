@@ -7,7 +7,7 @@
   "env": {
     "BUILDPACK_URL": {
       "description": "Buildpack url",
-      "value": "https://github.com/HashNuke/heroku-buildpack-elixir"
+      "value": "https://github.com/nwittstruck/heroku-buildpack-elixir#scalingo"
     }
   }
 }

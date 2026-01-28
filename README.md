@@ -28,7 +28,7 @@ mix run --no-halt
 Create an application on https://scalingo.com, then:
 
 ```
-git remote add scalingo git@scalingo.com:<name_of_your_app>.git
+scalingo --app my-app git-setup
 git push scalingo master
 ```
 

@@ -1,6 +1,6 @@
 defmodule SampleElixirPlug.AppWorker do
-  def start_link do
+  def start_link(_args) do
     port = System.get_env("PORT", "3000") |> String.to_integer()
-    Plug.Adapters.Cowboy.http(SampleElixirPlug.AppPipeline, [], port: port)
+    Plug.Cowboy.http(SampleElixirPlug.AppPipeline, [], port: port)
   end
 end

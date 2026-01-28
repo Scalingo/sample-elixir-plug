@@ -5,7 +5,7 @@ defmodule SampleElixirPlug.MixProject do
     [
       app: :sample_elixir_plug,
       version: "1.0.0",
-      elixir: "~> 1.10",
+      elixir: "~> 1.17",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       deps: deps()
@@ -23,9 +23,7 @@ defmodule SampleElixirPlug.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:plug, "~> 1.0"},
-      {:plug_cowboy, "~> 1.0"},
-      {:cowboy, "~> 1.0"}
+      {:plug_cowboy, "~> 2.7"},
     ]
   end
 end

@@ -38,7 +38,7 @@ The application is running at this url: https://sample-elixir-plug.scalingo.io/
 
 ## Deploy in one click
 
-[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://github.com/Scalingo/sample-elixir-plug)
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy)
 
 ## Links
 

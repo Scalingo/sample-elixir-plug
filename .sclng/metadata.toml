@@ -1,0 +1,7 @@
+dependencies = []
+description = "Elixir/Plug sample application"
+languages = ["dockerfile", "elixir"]
+owner = "devrel@scalingo.com"
+team = "DevRel"
+version = "1.0.2"
+tier = 2
